@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fb.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Facebook</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-6 custom-display">
+                <h1 class="display-3 fb-logo display-custom">
+                    facebook
+                </h1>
+                <p>
+                    Connect with friends and the world around you on Facebook
+                </p>
+            </div>
+            <div class="col-lg-6 col-sm-6 custom-display form-bg">
+                <div class="form-group">
+                    <label for="usr">Email or Phone Number</label>
+                    <input type="text" class="form-control" id="usr">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password</label>
+                    <input type="password" class="form-control" id="pwd">
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-block">
+                    Log In
+                </button>
+                <div class="text-center my-3">
+                    <a href="#" class="fb-logo">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
