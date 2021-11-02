@@ -1,5 +1,5 @@
 .custom-display {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 .fb-logo {
   color: #1877f2;
@@ -10,6 +10,7 @@
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
   box-sizing: border-box;
   padding: 25px 0px 25px;
+  margin-top: 10em;
 }
 .frgt-pwd {
   border-bottom: 1px solid #dadde1;
