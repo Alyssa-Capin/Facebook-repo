@@ -1,5 +1,9 @@
+.home-pg {
+  background-color: #f0f2f5;
+  background-size: cover;
+}
 .login-pg {
-  margin-top: 10rem;
+  margin-top: 6rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -12,10 +16,10 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
   box-sizing: border-box;
-  padding: 25px 0px 25px;
+  padding: 20px 21px 20px;
   margin-top: 1rem;
   text-align: center;
-  width: 360px;
+  width: 400px;
 }
 .frgt-pwd {
   border-bottom: 1px solid #dadde1;
