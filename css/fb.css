@@ -1,6 +1,9 @@
-.custom-display {
-  margin-top: 15rem;
+.login-pg {
+  margin-top: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
+
 .fb-logo {
   color: #1877f2;
 }
@@ -10,7 +13,9 @@
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
   box-sizing: border-box;
   padding: 25px 0px 25px;
-  margin-top: 10em;
+  margin-top: 1rem;
+  text-align: center;
+  width: 360px;
 }
 .frgt-pwd {
   border-bottom: 1px solid #dadde1;
