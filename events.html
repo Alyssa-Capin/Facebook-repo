@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <script>
+
+        function show(command) {
+            var div = document.getElementById('command');
+            div.innerText = command;
+        }
+
+        function pangHugas(utensil, sabon) {
+            var iteminput = document.getElementById('item')
+            var item = iteminput.value;           
+            var saboninput = document.getElementById('sabon')
+            var sabon = saboninput.value;
+            show ("Clean the " + item + " by " + sabon )
+        }
+
+        function display(sentence) {
+            var div = document.getElementById('sentence')
+            div.innerText = sentence;
+        }
+
+        function onClick() {
+            var petInput = document.getElementById('animal');
+            var animal = petInput.value;
+            var foodInput = document.getElementById('food')
+            var food = foodInput.value;
+            display("The " + animal + " is eating " +  food + "!")
+        }
+        function remove() {
+            var div = document.getElementById('sentence')
+            div.innerText = ""            
+        }
+
+       </script>
+       <style>
+           div #sentence{
+               height: 20px;
+           }
+       </style>
+    </head>
+    <body>
+          <div>
+                <div id="command">
+
+                </div>
+                <input type="text" id="item" placeholder="Item">
+                <input type="text" id="sabon" placeholder="Material">
+                <button id="panghugas-btn" onclick="pangHugas()">
+                    Panghugas
+                </button>
+
+                <div id="sentence">
+                    
+                </div>
+                <input type="text" id="animal" placeholder="animal">
+                <input type="text" id="food" placeholder="food">
+                <button id="btn" onclick="onClick('dog', 'vegetables')">
+                    My Pet!
+                </button>
+                <button id="clear" onclick="remove()">
+                    clear
+                </button>
+          </div>  
+    </body>
+</html>
