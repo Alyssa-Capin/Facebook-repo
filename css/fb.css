@@ -7,6 +7,9 @@
   padding-left: 3rem;
   padding-right: 3rem;
 }
+.custom-display {
+  padding-right: 10px;
+}
 
 .fb-logo {
   color: #1877f2;
